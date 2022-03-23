@@ -6,14 +6,14 @@ import renderWithRouter from './renderWithRouter';
 
 describe('Testando o componente <Pokedex.js />', () => {
   test('Testando se página contém um h2 com o texto Encountered pokémons', () => {
-    reactWithRouter(<App />);
+    renderWithRouter(<App />);
     const headingPage = screen.getByRole('heading',
       { name: /encountered pokémons/i, level: 2 });
     expect(headingPage).toBeInTheDocument();
   });
 
   test('Teste se é exibido o prox Poke quando o btn "Próximo pokémon" é clicado', () => {
-    reactWithRouter(<App />);
+    renderWithRouter(<App />);
     const btnNextPoke = screen.getByRole('button', { name: /próximo pokémon/i });
     expect(btnNextPoke).toHaveTextContent('Próximo pokémon');
     const imgPokemon = screen.getByRole('img');
