@@ -1,4 +1,4 @@
-Nesse projeto trabalhei utilizando os seletores (queries) da React-Testing-Library em testes automatizados.
+<h1 align="center"> React-Testing-Library </h1>
 
  <div align="center">
  
