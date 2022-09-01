@@ -19,10 +19,10 @@ Neste projeto utilizei Jest e a biblioteca React Testing Library para escrever t
 
 ## Habilidades Desenvolvidas
 
- • Simulando eventos com o React-Testing-Library em testes automatizados.
- • Testando fluxos lógicos assíncronos com a React-Testing-Library.
- • Me propus a escrever testes que permitem a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados.
- • Testando inputs.
+ - Simulando eventos com o React-Testing-Library em testes automatizados.
+ - Testando fluxos lógicos assíncronos com a React-Testing-Library.
+ - Me propus a escrever testes que permitem a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados.
+ - Testando inputs.
  
 ## Tecnologias utilizadas:
 - React-Testing-Library 
